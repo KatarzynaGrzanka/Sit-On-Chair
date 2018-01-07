@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         imgLi[index].style.display = "initial";
     });
-
+    
     rightBtn.addEventListener("click", function() {
         imgLi[index].style.display = "none";
         index++;
